@@ -24,6 +24,4 @@ endforeach ()
 list(REMOVE_DUPLICATES OPEN_ECL_INCLUDE_DIRS)
 include_directories(${OPEN_ECL_INCLUDE_DIRS})
 
-add_executable(OPEN_ECL ${OPEN_ECL_SOURCES} )
-
-# /usr/bin/valgrind -v --tool=memcheck --gen-suppressions=all --leak-check=full --show-leak-kinds=all --leak-resolution=high --track-origins=yes --vgdb=no /home/dsisejkovic/dev/GITHUB/evo-lib/cmake-build-debug/OPEN_ECL "evo.properties"
+add_executable(OPEN_ECL ${OPEN_ECL_SOURCES})

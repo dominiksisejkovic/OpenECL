@@ -2,7 +2,17 @@
 
 This repository contains a C++ implementation of an evolutionary computation library that can be used as a **template** with the basic facilities to **create your own algorithm** to solve complex black-box optimization problems. The concept of the library is not to offer every kind of algorithm or genotpy, but rather to expose the very basics to easily get started on your own projects!
 
--> add reference here
+Please cite OpenECL if you use it:
+```
+@misc{sisejkovicOpenECL2020,
+  author = {D. \v{S}i\v{s}ejkovi\'{c}},
+  title = {OpenECL: The Free Evolutionary Computation Library in C++},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  howpublished = {\url{https://github.com/dominiksisejkovic/OpenECL}}
+}
+```
 
 ## Table of Content
 1. [Design Principles](#design-principles)
@@ -248,7 +258,7 @@ operator.selection=k.tournament
 operator.selection.k.tournament.size=3
 operator.selection.k.tournament.num.parents=2
 ```
-<a name="design-principles"></a>
+<a name="getting-started"></a>
 ## Getting Started
 Once you download all your files, you can include them in your project or use the available 'main.cpp'. See the following for details.
 ```cpp
